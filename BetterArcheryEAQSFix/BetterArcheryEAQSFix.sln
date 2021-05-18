@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterArcheryEAQSFix", "BetterArcheryEAQSFix.csproj", "{1B02B4CD-94F3-426B-9CEB-CE8B5F2470CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B02B4CD-94F3-426B-9CEB-CE8B5F2470CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B02B4CD-94F3-426B-9CEB-CE8B5F2470CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B02B4CD-94F3-426B-9CEB-CE8B5F2470CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B02B4CD-94F3-426B-9CEB-CE8B5F2470CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B245940-C4DB-41E9-8705-A9B82DD8D648}
+	EndGlobalSection
+EndGlobal
