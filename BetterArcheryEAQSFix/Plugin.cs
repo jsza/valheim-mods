@@ -27,16 +27,6 @@ namespace BetterArcheryEAQSFix
         public static int RowStartIndex = 0;
         public static int RowEndIndex = 0;
 
-        public static int GetRowStartIndex()
-        {
-            return BetterArchery.BetterArchery.QuiverRowIndex - 1;
-        }
-
-        public static int GetRowEndIndex()
-        {
-            return BetterArchery.BetterArchery.QuiverRowIndex - 1;
-        }
-
         public static void UpdateRowIndex()
         {
             int QuiverRowIndex = BetterArchery.BetterArchery.QuiverRowIndex;

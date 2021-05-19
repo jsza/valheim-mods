@@ -11,7 +11,7 @@ namespace BetterArcheryEAQSFix
     [HarmonyPatch(typeof(Player), nameof(Player.Awake))]
     public static class Player_Awake_Patch
     {
-        public static void Postfix(Player __instance)
+        public static void Postfix()
         {
             BetterArcheryState.UpdateRowIndex();
         }
@@ -99,7 +99,7 @@ namespace BetterArcheryEAQSFix
     [HarmonyPatch(typeof(Inventory), nameof(Inventory.GetEmptySlots))]
     public static class Inventory_GetEmptySlots_Patch
     {
-        public static void Postfix(Inventory __instance, ref int __result, bool __runOriginal)
+        public static void Postfix(Inventory __instance, ref int __result)
         {
             if (!BetterArcheryState.QuiverEnabled)
             {
