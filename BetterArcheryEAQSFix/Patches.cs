@@ -30,6 +30,11 @@ namespace BetterArcheryEAQSFix
 
         public static void Postfix(Player __instance)
         {
+            if (!BetterArcheryState.QuiverEnabled)
+            {
+                return;
+            }
+
             loading = false;
 
             // Avoid trying to drop items at character select screen

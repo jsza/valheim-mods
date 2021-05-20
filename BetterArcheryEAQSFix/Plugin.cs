@@ -7,7 +7,7 @@ using HarmonyLib;
 
 namespace BetterArcheryEAQSFix
 {
-    [BepInPlugin("MVP.BetterArcheryEAQSFix", "BetterArcheryEAQSFix", "0.0.1")]
+    [BepInPlugin("MVP.BetterArcheryEAQSFix", "BetterArcheryEAQSFix", "0.0.2")]
     [BepInDependency("ishid4.mods.betterarchery")]
     public class Plugin : BaseUnityPlugin
     {
